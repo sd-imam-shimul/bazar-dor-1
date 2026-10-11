@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 বাজার দর (Bazar Dor)
 
-## Getting Started
+প্রয়োজনীয় পণ্যের দাম এক নজরে দেখার জন্য একটি আধুনিক Next.js অ্যাপ্লিকেশন।
 
-First, run the development server:
+## 📖 Description
+বাজার দর হলো একটি ওয়েব অ্যাপ্লিকেশন যা ব্যবহারকারীদের চাল, ডাল, তেল, সবজি, মাছ, মাংস, ডিম ও মশলার আজকের বাজার দর দেখতে সাহায্য করে। এটি বাজারভিত্তিক দাম, পরিবর্তনের হার এবং বাজার তুলনা দেখায়।
+
+## 🛠️ Technologies Used
+- **Next.js 15** (App Router)
+- **TypeScript**
+- **Tailwind CSS**
+- **BetterAuth** (Email/Password + Google + GitHub)
+- **Neon PostgreSQL** (Database)
+- **react-hot-toast** (Notifications)
+- **Vercel** (Deployment)
+
+## ✨ Key Features
+1. **আজকের বাজার দর** — সব পণ্যের আজকের দাম, দাম বাড়া/কমার ট্রেন্ড সহ
+2. **বাজারভিত্তিক দাম তুলনা** — প্রতিটি পণ্যের জন্য বিভিন্ন বাজারের দাম, সর্বনিম্ন-সর্বোচ্চ-গড়
+3. **ক্যাটাগরি ও সর্টিং** — ক্যাটাগরি অনুযায়ী পণ্য দেখা, দাম অনুযায়ী সাজানো
+4. **Authentication** — BetterAuth দিয়ে Email/Password এবং Google/GitHub সাইন ইন
+5. **প্রোফাইল ম্যানেজমেন্ট** — ব্যবহারকারীর তথ্য আপডেট করার সুবিধা
+6. **প্রাইস টিকার** — Navbar-এ infinite scrolling price ticker
+7. **সম্পূর্ণ রেসপনসিভ** — মোবাইল, ট্যাবলেট ও ডেস্কটপে কাজ করে
+8. **Bengali Numerals** — সব দাম বাংলা সংখ্যায়
+
+## 🚀 Live Demo
+- **Live:** [https://bazar-dor.vercel.app](https://bazar-dor.vercel.app)
+- **GitHub:** [https://github.com/yourusername/bazar-dor](https://github.com/yourusername/bazar-dor)
+
+## 📦 Installation
 
 ```bash
+git clone https://github.com/yourusername/bazar-dor.git
+cd bazar-dor
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
